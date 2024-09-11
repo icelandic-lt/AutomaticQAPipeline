@@ -35,6 +35,8 @@ python run_qa_pipe.py --dataset-path path/to/dataset --skip-correction
 
 In order to correct spelling and grammar, the [Byte-Level Neural Error Correction Model for Icelandic](http://hdl.handle.net/20.500.12537/324) must be downloaded and placed within this repository.
 
+## Output
+
 The pipeline will output the final questions and answers to the file `data/queries.jsonl`. The output format is the following:
 
 ```
